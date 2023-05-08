@@ -11,6 +11,11 @@
 
 // Part 1 answer 👇🏻 ...
 
+let fullName = "Mohammad Alfoudari"
+const yearOfBirth = 1996
+let hobby = "swimming"
+let funFact = "I have a twin"
+const image = "https://i.redd.it/0l3w8fhbsrv21.png";
 
 
 
@@ -32,6 +37,11 @@
 // const fullNameString = `My name is ${}`;
 // const yearOfBirthString =
 // const hobbyString =
+const fullNameString = `My name is ${fullName}`;
+const your_age = 2023 - 1996
+const yearOfBirthString =  `I am ${your_age}`
+const hobbyString = `My hobby is ${hobby}`
+
 
 
 
@@ -45,14 +55,18 @@ let stars = 0;
 
 function incrementBy1() {
   // Increment stars by 1 👇🏻
+  stars++;
 }
 function decrementBy1() {
   // decrement stars by 1 👇🏻
+  stars--;
 }
 
 function incrementBy2() {
   // Increment stars by 2 👇🏻
+  stars = stars+2;
 }
 function decrementBy2() {
   // decrement stars by 2 👇🏻
+  stars = stars-2;
 }
